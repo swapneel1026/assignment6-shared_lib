@@ -1,6 +1,5 @@
 def call(cfg) {
 
-```
 echo "Checking out ${cfg.URL}"
 echo "Branch ${cfg.BRANCH}"
 
@@ -9,6 +8,5 @@ checkout([
     branches: [[name: "*/${cfg.BRANCH}"]],
     userRemoteConfigs: [[url: cfg.URL]]
 ])
-```
 
 }
