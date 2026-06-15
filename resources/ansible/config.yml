@@ -6,7 +6,7 @@ KEEP_APPROVAL_STAGE: true
 
 ANSIBLE:
   PLAYBOOK: site.yml
-  INVENTORY: inventory
+  INVENTORY: inventory/inventory.ini
 
 GIT:
   URL: https://github.com/swapneel1026/ansible_mongodb_install.git
