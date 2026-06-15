@@ -1,8 +1,8 @@
 def call(cfg) {
 
     git(
-        branch: cfg.BRANCH,
-        url: cfg.URL
+        url: cfg.GIT.URL ,
+       branch: cfg.GIT.BRANCH
     )
 
 }
