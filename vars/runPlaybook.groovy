@@ -2,7 +2,7 @@ def call(cfg) {
 
     withCredentials([
         sshUserPrivateKey(
-            credentialsId: 'ansible-key',
+            credentialsId: 'ansible-key-mdb',
             keyFileVariable: 'SSH_KEY'
         )
     ]) {
