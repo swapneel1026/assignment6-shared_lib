@@ -4,6 +4,10 @@ CODE_BASE_PATH: Assignment-6
 ACTION_MESSAGE: "Ansible deployment for Assignment6"
 KEEP_APPROVAL_STAGE: true
 
+ANSIBLE:
+  PLAYBOOK: mongodb_install.yml
+  INVENTORY: inventory.ini
+
 GIT:
-  URL: https://github.com/swapneel1026/ansible_mongodb_install.git
-  BRANCH: master
+  URL: https://github.com/swapneel1026/ansible_mongodb_install.git
+  BRANCH: master

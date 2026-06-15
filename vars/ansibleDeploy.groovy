@@ -1,6 +1,9 @@
 def call() {
 
     def config = loadConfig()
+    echo "CONFIG = ${config}"
+echo "GIT URL = ${config.GIT.URL}"
+echo "PLAYBOOK = ${config.ANSIBLE.PLAYBOOK}"
 
     pipeline {
         agent any
