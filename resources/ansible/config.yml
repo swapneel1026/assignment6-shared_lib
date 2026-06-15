@@ -1,0 +1,10 @@
+SLACK_CHANNEL_NAME: build-status
+ENVIRONMENT: prod
+CODE_BASE_PATH: Assignment-6
+ACTION_MESSAGE: "Ansible deployment for Assignment6"
+KEEP_APPROVAL_STAGE: true
+
+GIT:
+  URL: https://github.com/swapneel1026/ansible_mongodb_install.git
+  BRANCH: master
+  CREDENTIALS_ID: git-credits
