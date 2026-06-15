@@ -5,8 +5,8 @@ ACTION_MESSAGE: "Ansible deployment for Assignment6"
 KEEP_APPROVAL_STAGE: true
 
 ANSIBLE:
-  PLAYBOOK: mongodb_install.yml
-  INVENTORY: inventory.ini
+  PLAYBOOK: site.yml
+  INVENTORY: inventory
 
 GIT:
   URL: https://github.com/swapneel1026/ansible_mongodb_install.git
