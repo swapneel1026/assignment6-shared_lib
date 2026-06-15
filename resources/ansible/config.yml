@@ -7,4 +7,3 @@ KEEP_APPROVAL_STAGE: true
 GIT:
   URL: https://github.com/swapneel1026/ansible_mongodb_install.git
   BRANCH: master
-  CREDENTIALS_ID: git-credits
