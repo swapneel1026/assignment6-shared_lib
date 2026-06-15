@@ -1,12 +1,14 @@
 def call(cfg) {
 
-echo "Checking out ${cfg.URL}"
-echo "Branch ${cfg.BRANCH}"
+```
+echo "Checking out ${cfg.GIT.URL}"
+echo "Branch ${cfg.GIT.BRANCH}"
 
 checkout([
     $class: 'GitSCM',
-    branches: [[name: "*/${cfg.BRANCH}"]],
-    userRemoteConfigs: [[url: cfg.URL]]
+    branches: [[name: "*/${cfg.GIT.BRANCH}"]],
+    userRemoteConfigs: [[url: cfg.GIT.URL]]
 ])
+```
 
 }
